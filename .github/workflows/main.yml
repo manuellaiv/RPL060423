@@ -48,4 +48,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: cd /home/rplcicd/13521051 && screen -dmS flask-21051 python3 -m flask run --host=3.138.116.132 --port=22 && ps -ef | grep 21051
+        script: cd /home/rplcicd/13512043 && screen -dmS flask-12043 python3 -m flask run --host=3.138.116.132 --port=22 && ps -ef | grep 12043
